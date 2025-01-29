@@ -5,10 +5,6 @@ Technical Portfolio of my artifacts
 **Description**: Displays SQL functions of case diagrams (Librarian and member), class diagrams (book, member, and library), activity diagrams (a member checking out a book), and sequence diagrams.
 **Technologies**: SQL, UML Diagrams
 
-## Cupcake Problems and Solutions
-**Description**: Software addressing scheduling problems by automating the scheduling process, minimizing overstaffing or understaffing, and providing analytics for performance monitoring and decision-making.
-**Technologies**: Scheduling Algorithms, Data Analytics
-
 ## CodingCore WebApp
 **Description**: A web application designed to bring together coding enthusiasts of all skill levels to collaborate and assist each other in a fun environment. It aims to build a network for programmers to work on projects and learn from one another.
 **Technologies**: Web Development, User Authentication, Messaging
