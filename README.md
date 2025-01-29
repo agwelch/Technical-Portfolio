@@ -1,6 +1,5 @@
 # Project Repository
-Technical-Portfolio
-Portfolio of my technical artifacts 
+Technical Portfolio of my artifacts 
 
 ## Library Case Diagram SQL
 **Description**: Displays SQL functions of case diagrams (Librarian and member), class diagrams (book, member, and library), activity diagrams (a member checking out a book), and sequence diagrams.
