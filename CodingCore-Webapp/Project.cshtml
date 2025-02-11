@@ -1,0 +1,35 @@
+﻿@page
+@model ProjectModel
+@{
+    ViewData["Title"] = "Projects";
+}
+
+<h1>Projects</h1>
+<p>Let's get started!</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Creator</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var project in Model.Projects)
+        {
+            <tr>
+                <td>@project.Title</td>
+                <td>@project.Description</td>
+                <td>@project.Creator</td>
+                <td>
+                  <form method="post" asp-page-handler="Save" asp-route-id="@project.ProjectID">
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
